@@ -1,0 +1,56 @@
+Algoritmo "semnome23"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/08/2023
+Var
+   // Seção de Declarações das variáveis
+
+   nome: caractere
+   sexo: caractere
+   estadocivil: caractere
+
+   tempodecasada: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   escreval("Digite seu nome:")
+   leia(nome)
+
+   escreval("Digite seu sexo:")
+   leia(sexo)
+
+   escreval("Digite seu estado civil:")
+   leia(estadocivil)
+
+   se (sexo = "F") e ( estadocivil = "casada") entao
+      escreval("Solicite o tempo de casada (anos):")
+      leia(tempodecasada)
+
+      limpatela
+      escreval("Nome:", nome)
+      escreval("sexo:", sexo)
+      escreval("Estado civil:", estadocivil)
+      escreval("Tempo de casada:", tempodecasada)
+
+   senao
+
+      limpatela
+      escreval("Nome:", nome)
+      escreval("sexo:", sexo)
+      escreval("Estado civil:", estadocivil)
+
+
+   fimse
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
