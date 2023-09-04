@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Nicolie Vieira Castro 
 // Data atual  : 04/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 maca: real
 morango: real
@@ -18,11 +18,11 @@ quantimorango: real
 kg: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 escreval("Digite a quantidade (em kg) de morangos:")
 leia(quantimorango)
-escreval("Digite a quantidade (em kg) de maçãs:")
+escreval("Digite a quantidade (em kg) de maÃ§Ã£s:")
 leia(quantimaca)
 
 escreval("")
@@ -33,7 +33,7 @@ soma <- morango + maca
 limpatela
 
 escreval("Quantidade de morangos (kg):", quantimorango)
-escreval("Quantidade de maçãs (kg):", quantimaca)
+escreval("Quantidade de maÃ§Ã£s (kg):", quantimaca)
 escreval("")
 escreval("total (em kg):", kg)
 
