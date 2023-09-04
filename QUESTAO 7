@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Nicolie Vieira Castro
 // Data atual  : 04/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 nome: caracter
 preco: real
@@ -14,7 +14,7 @@ quantidade: real
 total: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 escreval ("Digite qual o nome do produto:")
 leia(nome)
@@ -22,7 +22,7 @@ leia(nome)
 escreval ("Digite a quantidade:")
 leia(quantidade)
 
-escreval ("Digite o preço do produto:")
+escreval ("Digite o preÃ§o do produto:")
 leia(preco)
 
 total <- quantidade * preco
